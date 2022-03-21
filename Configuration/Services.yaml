@@ -1,0 +1,11 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+  NITSAN\NsCacheWebhook\:
+    resource: '../Classes/*'
+  NITSAN\NsCacheWebhook\Controller\NsWebhookController:
+    tags: [ 'nscachewebhook.controller' ]
+  NITSAN\NsCacheWebhook\Toolbar\ToolbarItem:
+    public: true

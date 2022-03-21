@@ -1,0 +1,9 @@
+# Records
+###########################
+
+# cat=basic; type=string; label= LLL:EXT:ns_cache_webhook/Resources/Private/Language/locallang_db.xlf:url
+buildUrl =
+
+# cat=basic; type=options[POST,GET]; label= LLL:EXT:ns_cache_webhook/Resources/Private/Language/locallang_db.xlf:method
+method = POST
+

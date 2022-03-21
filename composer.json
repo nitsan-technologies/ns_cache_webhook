@@ -1,0 +1,21 @@
+{
+    "name": "nitsan/ns-cache-webhook",
+    "description": "Use this extension for the rebuild the react js assets",
+    "type": "typo3-cms-extension",
+    "license": [
+        "GPL-2.0-or-later"
+    ],
+    "require": {
+        "typo3/cms-core": "^10.4 || ^11.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "NITSAN\\NsCacheWebhook\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "ns_cache_webhook"
+        }
+    }
+}
