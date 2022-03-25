@@ -14,13 +14,13 @@ class NsWebhookController extends ActionController
         $extensionConfiguration = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(\TYPO3\CMS\Core\Configuration\ExtensionConfiguration::class)
             ->get('ns_cache_webhook');
         $req = GeneralUtility::makeInstance(RequestFactory::class);
-//        $response = $req->request(
-//            $extensionConfiguration['buildUrl'],
-//            $extensionConfiguration['method'],
-//            []
-//        );
-//        $rawResponse = $response->getBody()->getContents();
-//        $response = json_decode($rawResponse, true);
-        return new JsonResponse(['login' => 'true']);
+        $response = $req->request(
+            $extensionConfiguration['buildUrl'],
+            $extensionConfiguration['method'],
+            []
+        );
+        $rawResponse = $response->getBody()->getContents();
+        $response = json_decode($rawResponse, true);
+        return new JsonResponse($response);
     }
 }

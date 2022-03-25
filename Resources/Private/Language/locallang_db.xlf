@@ -4,13 +4,13 @@
 		<header/>
 		<body>
 			<trans-unit id="rebuildJs" xml:space="preserve">
-				<source>Re-build JS</source>
+				<source>Flush Webhook Cache</source>
 			</trans-unit>
 			<trans-unit id="rebuildJs.description" xml:space="preserve">
-				<source>Re-generate the JS for the ReactJS.</source>
+				<source>Call your Webhook configured at Settings > Configure extensions > EXT.ns_cache_webhook.</source>
 			</trans-unit>
 			<trans-unit id="url" xml:space="preserve">
-				<source>Setup the rebuild URL</source>
+				<source>URL of your Webhook</source>
 			</trans-unit>
 			<trans-unit id="method" xml:space="preserve">
 				<source>Request Method</source>

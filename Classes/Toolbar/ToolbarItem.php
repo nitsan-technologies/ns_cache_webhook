@@ -47,7 +47,6 @@ class ToolbarItem implements ClearCacheActionsHookInterface
      */
     public function manipulateCacheActions(&$cacheActions, &$optionValues)
     {
-
         // First check if user has right to access the flush language cache item
         if ($this->getBackendUser()->isAdmin()) {
             /** @var UriBuilder $uriBuilder */

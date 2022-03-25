@@ -8,7 +8,7 @@ define([
     $(menuItemSelector).on('click', function (){
         if ($(this).find("[data-identifier='tx_nscachewebhook']").length > 0) {
             require(['TYPO3/CMS/Backend/Notification'], function(Notification) {
-                Notification.success('Well done', 'Your assets is generated successfully');
+                Notification.success('Well done', 'Your webhook successfully called which is configured at Settings > Configure extensions > EXT.ns_cache_webhook.');
             });
         }
     });
