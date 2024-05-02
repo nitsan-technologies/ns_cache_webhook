@@ -1,5 +1,3 @@
-# EXT.ns_cache_webhook
+# Flush Webhook Cache
 
-- Call your Webhook configured at Settings > Configure extensions > EXT.ns_cache_webhook.
-- TER https://extensions.typo3.org/extension/ns_cache_webhook
-- Documentation https://docs.t3planet.com/en/latest/ExtNsCacheWebhook/Index.html
+- Free version: https://extensions.typo3.org/extension/ns_cache_webhook

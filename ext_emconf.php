@@ -1,11 +1,11 @@
 <?php
 
 $EM_CONF['ns_cache_webhook'] = [
-    'title' => '[NITSAN] Flush Webhook Cache',
-    'description' => 'Add option at Flush cache menu call "Flush Webhook Cache" at TYPO3 backend. Call your Webhook configured at Settings > Configure extensions > EXT.ns_cache_webhook. Read more at documentation.',
+    'title' => 'Flush Webhook Cache',
+    'description' => 'Introducing our Flush Webhook Cache Extension for TYPO3 Backend, designed to streamline your web development process. With just a click, you can instantly clear the webhook cache, ensuring that your website stays updated with the latest changes and configurations.',
     'category' => 'plugin',
-    'author' => 'Team NITSAN',
-    'author_company' => 'NITSAN Technologies Pvt Ltd',
+    'author' => 'T3Planet // NITSAN',
+    'author_company' => 'T3Planet // NITSAN',
     'author_email' => 'sanjay@nitsan.in',
     'state' => 'stable',
     'version' => '1.0.0',

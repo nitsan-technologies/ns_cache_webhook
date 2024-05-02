@@ -1,6 +1,6 @@
 {
     "name": "nitsan/ns-cache-webhook",
-    "description": "Use this extension for the rebuild the react js assets",
+    "description": "Introducing our Flush Webhook Cache Extension for TYPO3 Backend, designed to streamline your web development process. With just a click, you can instantly clear the webhook cache, ensuring that your website stays updated with the latest changes and configurations.",
     "type": "typo3-cms-extension",
     "license": [
         "GPL-2.0-or-later"
