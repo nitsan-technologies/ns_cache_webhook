@@ -12,6 +12,7 @@ $EM_CONF['ns_cache_webhook'] = [
     'constraints' => [
         'depends' => [
             'typo3' => '10.4.0-11.5.99',
+            'ns_license' => '14.5.4-14.9.99',
         ],
     ],
     'autoload' => [
