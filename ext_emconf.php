@@ -8,10 +8,11 @@ $EM_CONF['ns_cache_webhook'] = [
     'author_company' => 'NITSAN',
     'author_email' => 'info@nitsantech.de',
     'state' => 'stable',
-    'version' => '1.0.3',
+    'version' => '1.0.4',
     'constraints' => [
         'depends' => [
             'typo3' => '10.4.0-11.5.99',
+            'ns_license' => '14.5.4-14.9.99',
         ],
     ],
     'autoload' => [
